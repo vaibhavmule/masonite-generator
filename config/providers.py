@@ -18,6 +18,7 @@ from masonite.providers import (
     CsrfProvider,
 )
 
+from app.providers.GeneratorProvider import GeneratorProvider
 from app.providers.MiddlewareProvider import MiddlewareProvider
 from app.providers.UserModelProvider import UserModelProvider
 
@@ -58,6 +59,7 @@ PROVIDERS = [
     # Third Party Providers
 
     # Application Providers
+    GeneratorProvider,
     UserModelProvider,
     MiddlewareProvider,
 ]
