@@ -1,6 +1,7 @@
-''' A GeneratorProvider Service Provider '''
+"""A GeneratorProvider Service Provider"""
 from masonite.provider import ServiceProvider
 from app.commands.GeneratorCommand import GeneratorCommand
+
 
 class GeneratorProvider(ServiceProvider):
 

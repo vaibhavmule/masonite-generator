@@ -1,10 +1,10 @@
-""" A GeneratorCommand Command """
+"""A GeneratorCommand Command"""
+
 from cleo import Command
 
 
 class GeneratorCommand(Command):
-    """
-    Scaffold CRUD controller
+    """Scaffold CRUD controller.
 
     gen
         {model : model name}
